@@ -1,0 +1,1152 @@
+[
+  {
+    "sample_id": "DB001",
+    "content_and_purpose": "收入数据分析界面：总收入、MRR、AI预测、地区订阅拆分与收入预测图。",
+    "layout_components": "多张大圆角卡片斜向铺满画面，收入预测与折线/柱状图并列，下方为订阅和地区列表。",
+    "hierarchy": "金额与 Revenue Growth 图最醒目；下方地区百分比和订阅用户数构成次级细项。",
+    "typography_color_components": "浅灰卡片配深灰字，绿色增长、橙紫条线作强调；卡片标题及金额较大。",
+    "presentation_limits": "画面是斜向透视的局部界面近景，四周卡片切出画框；没有可见实物设备外框。",
+    "uncertainties": [
+      [
+        "界面左上标题被边缘截断；最右和底部模块部分出框。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "总收入、MRR、预测、订阅拆分和地区收入指标。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Revenue、MRR、Subscriptions、Profit 等文字指向收入与订阅分析。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB002",
+    "content_and_purpose": "LexieLingua 学习面板含活动天数、作业进度、等级、AI建议、课程清单和待办任务。",
+    "layout_components": "深色顶栏与左侧菜单框住主工作区；中央学习指标和建议，右侧任务卡，底部课程列表。",
+    "hierarchy": "问候和三项学习状态先呈现；右侧作业任务与下方课程表按内容分区。",
+    "typography_color_components": "深蓝导航配白底和浅绿建议区，粉紫任务标记；主标题、数字突出，课程细节较密。",
+    "presentation_limits": "平面桌面应用界面置于浅蓝网格背景中，底部课程区被边缘截去；无设备外壳。",
+    "uncertainties": [
+      [
+        "课程列表底端超出画面；顶部项目服务说明属于外围展示文字。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Practice、Record audio、Complete test、Start 等任务操作可见。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Homework、pronunciation、grammar、courses 等学习词汇明确指向语言学习。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB003",
+    "content_and_purpose": "CryptiQ 暗色账户/交易界面展示余额、币种行情、交易对、存取款和奖励。",
+    "layout_components": "左侧垂直导航；上方账户余额横卡；中间市场行情表；右侧邀请及奖励栏。",
+    "hierarchy": "余额金额及存取款按钮位于顶部主卡，币种与涨跌表格占据核心区域。",
+    "typography_color_components": "深蓝黑底搭配白字，蓝色光效突出余额，币种涨跌用红绿区分；表格文字倾斜。",
+    "presentation_limits": "整个界面以倾斜透视的深色面板铺满图像，右侧及底部内容被裁；无设备框。",
+    "uncertainties": [
+      [
+        "右侧邀请奖励栏及底部行情超出画框；不少标签因倾斜较细。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Markets、Trade、Wallet、Transactions、Deposit、Withdraw 入口清楚。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "BTC、ETH、USDT、币价及交易对文字构成加密资产交易线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB004",
+    "content_and_purpose": "Meditech 医院运营总览含患者、门诊、床位、营收趋势、患者流量和警报。",
+    "layout_components": "左侧按临床、诊断、运营和财务分组导航；右侧上方指标卡，下方图表和运营模块。",
+    "hierarchy": "医院标题和患者/门诊/床位指标置顶，趋势图为主要分析区，警报模块在下方露出。",
+    "typography_color_components": "白底浅青色边栏，深灰标题和青绿趋势线；卡片宽大、指标数字突出。",
+    "presentation_limits": "正面平面应用面板，最右侧卡片被画面边缘截断，底部内容未完全显示；无设备外壳。",
+    "uncertainties": [
+      [
+        "右侧营收卡及下方警报、待审批区域被画框截断。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "侧栏可见 OPD、IPD、EMR/EHR、Laboratory、Patients、Billing 等模块。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "医院、病床、患者、门诊、药房、实验室等明确医疗运营线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB005",
+    "content_and_purpose": "Noteflow 工作管理首页含文件夹、项目文件数、Board/Timeline/Spreadsheet/Calendar切换和任务看板。",
+    "layout_components": "顶部品牌与横向导航；左侧工具栏；中央文件夹卡片、视图切换及多列任务状态。",
+    "hierarchy": "欢迎语在上方，文件夹摘要居中，视图控制和任务状态列在下半区。",
+    "typography_color_components": "白灰背景配橙色品牌图标，黑字标题及灰色辅助文字；状态标签绿、橙、蓝区分。",
+    "presentation_limits": "横向桌面界面被两侧裁切，底部任务卡只露上半部分；无设备框。",
+    "uncertainties": [
+      [
+        "右侧头像与部分文件夹卡片出框，底部任务标题被截断。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Overview、Activity、Manage、Program、Folders、Documents及 Board 等可切换。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "任务状态、文件夹、客户项目、创意资产和工作文档指向团队工作管理。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB006",
+    "content_and_purpose": "NETIC 销售运营面板展示销售、订单、访问量、收入、地域、热销商品和分析图表。",
+    "layout_components": "左侧模块导航；顶部四张指标卡；中部并列柱图与地图；下方热销商品表。",
+    "hierarchy": "销售额/订单/访问/收入先列于顶部；图表、地域和产品表分层向下。",
+    "typography_color_components": "浅色底配蓝色选中项，指标卡以橙蓝红绿区分；表格和图轴用较浅灰字。",
+    "presentation_limits": "完整的正面平面桌面界面，底边轻微截断表格；没有设备边框。",
+    "uncertainties": [
+      [
+        "表格下方未完全显示；小号列名和筛选标签较淡。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Search、Month、Country、View All、商品搜索和侧栏导航。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Total Sales、Orders、Revenue、Top Selling Products、Price 等体现销售分析与商品管理。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB007",
+    "content_and_purpose": "笔记本中的房产服务注册界面：左侧房屋图片网格，右侧手机号、邮箱、密码与创建账户。",
+    "layout_components": "单一浏览器页面左右分栏，图片墙占左半、品牌及注册表单占右半。",
+    "hierarchy": "Create account按钮是表单主要操作；房屋缩略图作为视觉配图。",
+    "typography_color_components": "白底页面，蓝色品牌字与黑色按钮；表单字段和小字在预览中较细。",
+    "presentation_limits": "页面位于笔记本实物样机屏幕，设备居中正视，屏内整体可见。",
+    "uncertainties": [
+      [
+        "边框限制网页展示范围；表单细字较小。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "手机号区号下拉、邮箱、密码、Create account及Google/Apple登录。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "多个房屋照片和房产服务品牌文字构成房产平台线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB008",
+    "content_and_purpose": "航运装载计划工作台含航次信息、港口日期、船舱载荷图、货物清单和提单表格。",
+    "layout_components": "顶部航次/状态控件；左侧行程卡；中间船舱平面示意与货位；右侧载重指标和货物列表；底部表格。",
+    "hierarchy": "船舱与载荷数字构成中心操作区，行程信息与货物明细分置两侧和底部。",
+    "typography_color_components": "白灰工作区配紫色主按钮与彩色状态标签；表格密集，数字字段较小。",
+    "presentation_limits": "界面显示在斜放笔记本屏幕中，透视轻微，机身和键盘完整可见。",
+    "uncertainties": [
+      [
+        "设备边框限定视口；底部表格贴近屏幕下沿。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "航次、Reg、Voyage ID、Save、筛选栏和货物表操作可见。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Cargo、Vessel、Voyage、Container、Delivery等词汇指向货运装载管理。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB009",
+    "content_and_purpose": "AgriNest 商业数据面板含日销售、月增长、农户表现、费用利润、商品与分类趋势。",
+    "layout_components": "左侧业务导航；顶部四项KPI；中部收入柱图和客户分群；下方菜品/农产品排行与趋势图。",
+    "hierarchy": "Business Data标题与四张指标卡居上，分析图和产品/类别列表构成下层主体。",
+    "typography_color_components": "白底绿色强调与浅灰线框，KPI数字大；图表标签、列表数值较密。",
+    "presentation_limits": "正面平面后台界面从上至下完整显示，底部账户区仍可见；无设备样机。",
+    "uncertainties": [
+      [
+        "没有明显透视或遮挡；小字在缩放预览中不易辨读。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "日期选择、Export CSV、指标切换、搜索筛选及Setup入口。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "农户、农产品名称、番茄土豆等作物与销售配送菜单提供农业经营线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB010",
+    "content_and_purpose": "CourseCo 学习管理界面含课程卡、课程进度、日历、待提交任务和账户升级提示。",
+    "layout_components": "平板内左右分栏：左侧导航与课程进度，右侧插画、月历及提交任务。",
+    "hierarchy": "课程卡和正在学习列表占中心，日历与即将提交任务置右侧。",
+    "typography_color_components": "白底配黑色侧栏，紫色选中项、粉色标签和青绿进度环；文字字号层次明显。",
+    "presentation_limits": "界面位于大幅倾斜平板样机中，屏幕内容大体完整，周围有紫色背景。",
+    "uncertainties": [
+      [
+        "边缘处设备屏幕轻微裁切；界面阅读角度受透视影响。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "搜索课程、提交作业、日历导航及 Get now 升级按钮。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "课程、作业、社区、课程进度和学习日历提供教育平台线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB011",
+    "content_and_purpose": "客户管理界面同时展示桌面与移动版客户总数、会员数、筛选条件和客户记录。",
+    "layout_components": "桌面客户表包含状态、公司、用户头像等列；右侧叠放窄版移动面板。",
+    "hierarchy": "总客户及会员指标位于列表上方，桌面表为主，手机宽布局作为响应式对照。",
+    "typography_color_components": "白底、淡灰分隔线和蓝紫主按钮；表头与记录文本较密，数字卡较突出。",
+    "presentation_limits": "桌面和窄屏网页平面并排叠合，移动版压住桌面右侧；无实物设备。",
+    "uncertainties": [
+      [
+        "右侧窄屏遮挡桌面表部分列，移动版本身继续出画面下沿。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Import、Add customer、搜索/筛选、复选框、分页和视图选项。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Customer、Members、Company、Customer status 等可见客户关系管理线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB012",
+    "content_and_purpose": "项目协作工作区含任务清单、项目、成员、近期活动和常用创建操作。",
+    "layout_components": "整张浅色工作台以斜角铺开；左边栏项目/团队树，中央任务与近期活动，右侧项目与成员卡。",
+    "hierarchy": "创建任务/项目与任务清单占中心，人员和活动流分布在右下。",
+    "typography_color_components": "白底极浅灰卡片，少量紫蓝、橙色图标；界面因倾斜显得文字细小。",
+    "presentation_limits": "界面以大幅斜向透视卡片展示，左上、右侧和底部内容出框；无设备实物。",
+    "uncertainties": [
+      [
+        "透视造成小字可辨度降低，多个边缘模块被画幅截断。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Create Task、Create Project、Schedule Meeting、Invite Team、View All。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Projects、Assigned Tasks、People、Teams及协作活动记录提供项目管理线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB013",
+    "content_and_purpose": "浅灰数据展示局部含说话/倾听比例、情绪分类、时间轴、播放控件及完成任务数。",
+    "layout_components": "斜置浅色工作面板；中央为带人物的情绪/时间数据区，右侧统计栏，底部完成任务柱图。",
+    "hierarchy": "Talk/Listen Ratio和情绪统计大字居右；中部时间轴和底部任务量为次级信息。",
+    "typography_color_components": "浅灰底与荧光黄绿强调情绪状态，黑灰文字；整体低对比，细标签较淡。",
+    "presentation_limits": "界面局部被放大并倾斜，右侧与下缘被裁切；未见设备外框。",
+    "uncertainties": [
+      [
+        "主要可见模块被画面边缘截断，细灰文字对比偏低。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "时间播放、音量滑杆、上一段/播放/下一段图标可见。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Talk/Listen、Positive/Neutral/Negative及完成任务指标；具体业务场景不明。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB014",
+    "content_and_purpose": "物流配送管理详情页含运单、配送状态、客户与地点资料、货物、文件和活动时间线。",
+    "layout_components": "左侧纵向物流模块菜单；中间交付信息、客户/地点和货物表单；右侧KPI、文件、进度时间线。",
+    "hierarchy": "交付状态与编号在上部；地址、客户和货物信息分块，右侧过程记录辅助追踪。",
+    "typography_color_components": "白底浅绿分区和深绿底部操作按钮；状态标签分色，字段表单排列规整。",
+    "presentation_limits": "完整平面桌面业务界面，画面底部有固定操作栏；未见设备样机。",
+    "uncertainties": [
+      [
+        "底部部分字段低于可视区；整体未见明显透视或遮挡。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "下拉字段、状态选择、下载文件及 Mark As Delivered、Save等按钮。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Delivery Management、货运单、车辆、客户签收、卸货等文字指向配送物流。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB015",
+    "content_and_purpose": "MateK Gent后台账单页显示通话额度、Token限制、电话服务额度和调整操作。",
+    "layout_components": "左侧产品模块栏；顶部账单子导航；中央纵向排列六条额度及对应按钮。",
+    "hierarchy": "Limits of Calls标题下的并列额度行构成主要内容，每行右侧均有Adjust Limit。",
+    "typography_color_components": "白色圆角面板、黑色图标与文字，背景为紫橙山景；数字突出且行间距大。",
+    "presentation_limits": "正面平面应用面板置于彩色背景上，内容边缘完整；无设备实物。",
+    "uncertainties": [
+      [
+        "无明显裁切或遮挡，底部侧栏账户与设置完整可见。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Billing History/Usages/Limits切换、Search、Export、Adjust Limit。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Concurrent Calls、LLM Token、Telnyx、Twilio等额度文字提示通信服务计费。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB016",
+    "content_and_purpose": "WellNest 医院管理多页面拼图展示科室详情、患者、消息、治疗说明及医生资料。",
+    "layout_components": "左侧主页面为科室介绍与医生卡片；右侧上下叠放消息对话和患者列表界面。",
+    "hierarchy": "科室标题与治疗服务主导左页；右侧消息列表/患者表格展示管理功能。",
+    "typography_color_components": "浅青背景、白色页面卡和深蓝信息条；文本较细，布局模块密集。",
+    "presentation_limits": "多张网页平面截图斜向错位拼接，彼此留有间距，无设备样机。",
+    "uncertainties": [
+      [
+        "透视轻微且边缘内容被裁；右下患者行较小。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Appointments、Patients、Departments、Messages、患者表筛选。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "医院科室、医生、患者、治疗项目和预约消息是医疗管理线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB017",
+    "content_and_purpose": "餐饮后台菜单管理页显示季节菜单卡、菜品数量、启停状态及删除确认弹窗。",
+    "layout_components": "左侧商店管理导航；主区四张菜单卡；中央弹出Delete Menu确认框覆盖背景。",
+    "hierarchy": "确认弹窗成为前景焦点，背景菜单卡与状态切换仍可见。",
+    "typography_color_components": "灰化后台配白色弹窗，橙色Delete按钮最醒目；背景文字因遮罩变暗。",
+    "presentation_limits": "正面平面单屏界面，模态框遮挡中央菜单内容；外框未被裁切。",
+    "uncertainties": [
+      [
+        "弹窗遮住中部菜单卡；背景被半透明灰色遮罩压暗。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Add Menu、Edit、状态开关、Menu Details、Cancel、Delete。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Store Management、Menus、Dishes、Kitchen 等餐饮门店词汇可见。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB018",
+    "content_and_purpose": "暗色金融图表拼贴显示多种币种数值、涨跌比例、折线、柱图和交易统计。",
+    "layout_components": "多个圆角图表卡斜向相接；币种卡在上方，图表和Trade Statistics在下方。",
+    "hierarchy": "币种数额和年度变化作为卡片标题，趋势图及统计区依次向下延展。",
+    "typography_color_components": "近黑底、白字及浅绿/粉色图线；卡片标题偏大，标签较细。",
+    "presentation_limits": "深色数据界面倾斜且近距离裁切，顶部和底部多个图表离开画框；无设备框。",
+    "uncertainties": [
+      [
+        "画面边缘截断币种卡和交易统计；文字方向随透视倾斜。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "可见1W、1M、6M、1Y时间范围切换。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Litecoin、USD Coin、EOS及Trade Statistics等币名与交易词汇提供加密行情线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB019",
+    "content_and_purpose": "语言学习平板面板展示教师搜索、课程、预约时段、账户进度和日程。",
+    "layout_components": "倾斜平板屏内左侧导航，中间教师列表与预约日历，右侧课程、日程及进度。",
+    "hierarchy": "课程与老师列表为主，日历和个人学习进度在右侧并列。",
+    "typography_color_components": "深色界面以青绿和多彩标签作重点；卡片与文字因缩放偏细。",
+    "presentation_limits": "平板实物以明显斜透视展示，机身完整；屏幕中的内容可见但缩小。",
+    "uncertainties": [
+      [
+        "外框包住整个屏幕，细项文字因倾斜和尺寸较小不易读。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "搜索、选日期、Book Online、课程选择和进度查看。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Find your teacher、My Courses、English、Speaking/Writing等提供语言学习线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB020",
+    "content_and_purpose": "深蓝底说明页列出现金流、待付款、近期交易、汇率组件和转账方式。",
+    "layout_components": "单张文字幻灯/说明卡，以大标题、纵向项目符号列表和右下SWIPE箭头组成。",
+    "hierarchy": "Solutions Implemented标题最大，五条功能说明按行排列，翻页提示置于右下。",
+    "typography_color_components": "深蓝底白字，高对比；标题和正文均为大号无衬线文字。",
+    "presentation_limits": "独立平面说明页而非仪表盘界面，页面四周完整，无设备样机。",
+    "uncertainties": [
+      [
+        "没有实际图表或数据控件；SWIPE箭头提示它属于多页展示内容。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "文字描述现金流、付款、交易、汇率和转账功能；可见翻页提示。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Cash Flow、Payments、Transactions、Currency Exchange等术语给出财务功能线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB021",
+    "content_and_purpose": "Channel Analytics 页面把运动人物图与活跃用户折线、销售、视频表现列表并置。",
+    "layout_components": "暗色侧栏图标导航；左侧主标题和运动人物；右侧折线/销售卡；下方视频列表。",
+    "hierarchy": "Optimize your Metrics标题和人物照片抢眼，统计数字和内容表现排行随后排列。",
+    "typography_color_components": "渐变棕紫底、半透明灰卡、白字和黄绿数据线；模块间对比中等。",
+    "presentation_limits": "正面平面界面卡片套在风景背景上，底部列表被画面截断；无设备实物。",
+    "uncertainties": [
+      [
+        "底边截断后续视频行；人物跨越数据卡导致部分图表被遮挡。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "侧栏图标、Start Now、消息/搜索图标及Popularity下拉可见。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Active Users、Latest Sales、Views、Video等词汇；具体平台性质未说明。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB022",
+    "content_and_purpose": "TaskBoard 项目任务看板显示任务状态列，右侧任务详情及新增分类弹窗。",
+    "layout_components": "主面板左侧项目树与看板；右侧详情抽屉叠于看板之上；分类选择浮层进一步覆盖详情。",
+    "hierarchy": "New Work Flow任务详情与高优先级状态成为焦点，背景看板保留任务列。",
+    "typography_color_components": "白灰底和紫色选中状态，黄色高优先级、橙色旗标；弹窗层级清楚。",
+    "presentation_limits": "正面桌面应用界面，详情抽屉和分类弹层真实遮挡背景区域；屏幕框完整。",
+    "uncertainties": [
+      [
+        "详情侧栏遮住部分任务列，分类弹层遮住描述及子任务区域。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "新增任务、指派人、日期、添加分类/子任务、附件和评论输入。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "任务、项目、优先级、进度状态及负责人构成项目管理线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB023",
+    "content_and_purpose": "仅显示网页栅格规范图：12列竖向网格、内容宽度1464及24间距标注。",
+    "layout_components": "中央白色画布由等宽列与间隙组成，蓝色尺寸线横跨顶部及左右边缘。",
+    "hierarchy": "内容宽度标尺及24间距标记是唯一信息重点，无业务数据组件。",
+    "typography_color_components": "浅灰紫网格和蓝色标注线，黑色尺寸文字稀疏。",
+    "presentation_limits": "平面设计规范图完整置于纹理背景中；没有实际应用界面或设备样机。",
+    "uncertainties": [
+      [
+        "未见裁切或遮挡；这是版式网格说明，不含业务面板。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "蓝色双向尺寸线与数值标注，不见产品操作控件。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "仅有Content Width及间距标注，无可用界面业务线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB024",
+    "content_and_purpose": "Panze 工作台数据仪表盘含用户/代理数量、工单指标、用户分布和按月趋势。",
+    "layout_components": "左侧宽菜单，顶部概览带；中部环图和工单数字；下部堆叠柱及分类圆环。",
+    "hierarchy": "总量摘要置于顶部，用户和工单图表按行排布，工单分类图形成底部分析区。",
+    "typography_color_components": "白底浅蓝紫渐变，数据卡使用彩色环图和柱条；字号层级明显。",
+    "presentation_limits": "正面平面桌面界面，底部发布列表只显示开头；无设备框。",
+    "uncertainties": [
+      [
+        "最下方Recent Publications表格在画幅底边截断。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Tickets、Agent Management、筛选、All Time及下载操作可见。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "工单、代理、技术支持、账单支付与文章发布文字提示客服支持系统。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB025",
+    "content_and_purpose": "偏宣传式功能卡展示邮件简报、存储占用和订阅增长柱图三项数据/组件。",
+    "layout_components": "三张不同大小卡片悬浮叠放在浅灰网格背景，方向和大小各异。",
+    "hierarchy": "Storage用量卡和Subscriber Growth图最突出，newsletter卡靠上作为内容示例。",
+    "typography_color_components": "白卡与深蓝存储卡对比；红色容量条、蓝橙图柱和黑色标题。",
+    "presentation_limits": "组件卡片以斜角透视漂浮呈现，不构成完整页面；边缘间距完整。",
+    "uncertainties": [
+      [
+        "各卡片彼此分散，未见完整导航或仪表盘容器；细节信息有限。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "卡片内出现Newsletter、Storage用量和Subscriber Growth指标。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "邮件简报、存储容量和订阅变化是可见线索；业务用途未明确。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB026",
+    "content_and_purpose": "学习者个人主页含训练提示、周活动曲线、技能进度、日历和课程时间表。",
+    "layout_components": "顶部搜索和个人资料；中央横幅提示及折线图；右列月历/日程；下方技能和底栏导航。",
+    "hierarchy": "欢迎提示横跨上方，活动图与技能列分居下方，日历与课程安排独立成侧栏。",
+    "typography_color_components": "浅底配珊瑚提示、蓝色折线与圆形技能进度；卡片文本清楚。",
+    "presentation_limits": "正面平面界面卡置于蓝灰背景，底部导航部分露出并被裁；无设备框。",
+    "uncertainties": [
+      [
+        "画面底边截去部分导航区；页面周围装饰圆点非界面组件。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Take training、日期选择、课程日程及Go Pro按钮。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Training、Course、skills、lessons、workshop等词汇指向在线学习。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB027",
+    "content_and_purpose": "Worvix 人力资源工作台展示员工参与度、雇佣状态、KPI、任务与月历日程。",
+    "layout_components": "真实显示器屏幕内左侧导航，主体三列指标/图表，下方工作表现与排班日历。",
+    "hierarchy": "参与度、雇员总数和分类绩效置顶；下方月度KPI柱与日程辅助管理。",
+    "typography_color_components": "白灰底配紫色主色和状态彩条；设备屏内字号较小但主要标题清晰。",
+    "presentation_limits": "桌面显示器实物样机，正面屏幕显示完整应用区域；下边有键盘和主机。",
+    "uncertainties": [
+      [
+        "屏幕下缘截断后续图表内容，设备本体没有被遮挡。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Search、日期筛选、消息、Time-Off Requests、Team Members导航。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Employment Status、Employees、Attendance、Leave Tracker等人事管理文字。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB028",
+    "content_and_purpose": "Flup 物流追踪界面列出车辆状态、路线地图、货车载荷分布和货物运单。",
+    "layout_components": "屏幕嵌入卡车车厢侧面；左侧追踪列表，中间路线地图，右侧载荷图，下方货物详情。",
+    "hierarchy": "地图线路与载荷重量图并列，左侧车辆状态卡及底部操作细节支持追踪。",
+    "typography_color_components": "浅色界面和绿色标签，文字与卡片因雾化合成效果对比偏弱。",
+    "presentation_limits": "大型卡车三维场景中嵌入界面显示板，视角正面略斜；卡车占据左部。",
+    "uncertainties": [
+      [
+        "背景卡车遮挡画面左侧留白，但主要界面在白色屏板内可见；细字较淡。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Tracking、Add new task、Filters和车辆路线列表。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "车辆、运输路线、到达时间、货物和付款模块提供物流运营线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB029",
+    "content_and_purpose": "手机能源数据界面展示实时功率41.6kW、月度柱条和风机设备清单。",
+    "layout_components": "单部手机内上方功率仪表与时间筛选，下方风机表格及状态列。",
+    "hierarchy": "实时功率大数字占屏幕上部，月度图条和设备列表按顺序向下。",
+    "typography_color_components": "蓝色屏幕、荧光黄图条和白字；高亮值突出，表格细字较小。",
+    "presentation_limits": "手机样机斜放在半透明蓝色阶梯底座上，手机完整可见。",
+    "uncertainties": [
+      [
+        "透视明显但屏幕主体可见；细小表格文字不易辨读。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Real-Time Power、Year/Month/Week切换和风机状态列表。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "风机、功率kW、实时发电量及设备状态提供能源监测线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB030",
+    "content_and_purpose": "Finotive 深色财务面板展示多币种余额、现金流、最近交易、账户卡和联系人。",
+    "layout_components": "笔记本屏幕内左侧导航；上方货币余额；中部现金流折线与活动；底部卡片被笔记本遮住。",
+    "hierarchy": "账户余额卡和现金流图构成主体，最近交易列表在右侧，下部账户信息在屏幕边沿。",
+    "typography_color_components": "黑底配绿松石图线与白色金额字；数据卡较紧凑、低亮度。",
+    "presentation_limits": "斜放笔记本实物展示应用；屏幕下缘被笔记本自身前沿遮住部分底部UI。",
+    "uncertainties": [
+      [
+        "设备前沿遮挡屏幕底部内容，屏内小字因尺寸及暗色不够清楚。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Transactions、Payments、Cards、Create account及账户切换导航。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "多币种余额、Cashflow、银行卡、付款及近期交易提供个人金融管理线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB031",
+    "content_and_purpose": "LeonAnd 客户情报工作区显示周收入摘要、MRR、订阅数及Revenue/Analytics导航。",
+    "layout_components": "左侧工作区菜单；右侧日报式大标题、月/周/季度切换及收入KPI卡片。",
+    "hierarchy": "The week in revenue大标题与MRR数字是画面焦点，右侧订阅指标接续呈现。",
+    "typography_color_components": "浅蓝灰背景、深蓝字和墨绿增长值；主标题特大，卡片数据醒目。",
+    "presentation_limits": "界面像局部放大的面板横向铺开，右侧内容超出画框；无设备边框。",
+    "uncertainties": [
+      [
+        "标题、右侧订阅卡和下部图表被画面右/下边缘截去。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Overview、Revenue、Analytics、Funnels、Segments和时间范围切换。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "MRR、Active subscriptions、Revenue等文字指向订阅收入分析。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB032",
+    "content_and_purpose": "产品经营面板综合产品库存、订单、销售额、转化率、促销、库存警告和人群年龄分析。",
+    "layout_components": "斜向铺陈的浅色管理页，侧栏导航左下，指标小卡与大销售图分区，下方年龄条形图。",
+    "hierarchy": "总产品/订单/营收指标布在上方，中央销售趋势最大，库存警告与分群位于下部。",
+    "typography_color_components": "浅底配粉紫、亮粉色操作按钮和淡灰图线；卡片数字粗体醒目。",
+    "presentation_limits": "页面以大角度倾斜透视铺满画幅，四边多个模块被裁；无实物屏幕框。",
+    "uncertainties": [
+      [
+        "倾斜导致阅读方向偏转，左右边缘和底部信息被截掉。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Download、Restock Now、Contact Supplier、View Full Campaign Report。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "产品、订单、库存、促销、销售、供应商等词汇指向零售运营管理。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB033",
+    "content_and_purpose": "Swieft 运输追踪暗色界面显示多辆货车位置、线路、载荷重量、司机及货物清单。",
+    "layout_components": "左侧车辆运单列表；中间路线地图；右侧货舱重量分布；下方行程详情和货物表。",
+    "hierarchy": "在途货车地图与载荷结构图并列，具体运单列表和操作详情置于下方。",
+    "typography_color_components": "黑色底搭配橙色路线和状态字、浅色货车图标；正文密集且偏小。",
+    "presentation_limits": "平面暗色桌面界面完整处于圆角容器中，底部货物清单延出画面。",
+    "uncertainties": [
+      [
+        "底端Cargo List表格被画面截断；整体没有设备样机。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "搜索、状态筛选、地图缩放定位、过滤及下载图标。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "车辆型号、行程路线、ETA、重量、货物代码和目的地提供物流调度线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB034",
+    "content_and_purpose": "黄色横幅以Like it?及留言号召配黑色立体爱心图形。",
+    "layout_components": "横向单条布局；左上黑色圆角提示，左侧两行文字，右侧大爱心。",
+    "hierarchy": "主号召文字横跨左侧，爱心装饰承担右侧视觉重点。",
+    "typography_color_components": "亮黄底、黑色文字及立体黑爱心；主句常规大字，次句斜体。",
+    "presentation_limits": "独立横向提示横幅，元素均完整可见；无应用面板或设备。",
+    "uncertainties": [
+      [
+        "无明显裁切；画面仅为互动宣传文字和装饰图形。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Like it?和留言号召属于提示语，不见实际界面控件。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "无可用界面业务线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB035",
+    "content_and_purpose": "黑底尾页提示观众点赞、关注、分享，含猫形标志、按钮样式短语及标签。",
+    "layout_components": "左上两行大字与按钮；右上白色双猫符号；底部左右分置话题标签。",
+    "hierarchy": "Enjoying the content?与Like, Follow, and Share占据主层，按钮和标签较次。",
+    "typography_color_components": "黑底、白/灰文字，按钮为浅灰渐变；主次通过亮度区分。",
+    "presentation_limits": "完整的横向结尾页平面图，无设备或真实产品界面。",
+    "uncertainties": [
+      [
+        "没有明显遮挡或裁切；文字与图标边缘清晰。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "点赞/关注/分享引导及按钮样式元素，但无明确应用操作界面。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "无可用界面业务线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB036",
+    "content_and_purpose": "Dryking Career 移动端个人档案操作流程并列展示简历视频、资料编辑和证书添加表单。",
+    "layout_components": "三台手机屏幕等距并排，各显示同一资料页不同状态，底部各有应用导航。",
+    "hierarchy": "中屏编辑档案、右屏添加证书弹层展示具体操作，左屏为公开个人资料。",
+    "typography_color_components": "白底灰卡配蓝色操作按钮与红色移除键；表单字小而有层级。",
+    "presentation_limits": "三部真实比例手机样机平面并列展示，屏幕内容可见且未明显互相遮挡。",
+    "uncertainties": [
+      [
+        "个别屏内小字较细；手机边框完整，无明显裁切。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Log In/Sign Up、Watch CV Video、Edit Profile、Upload、Save、Add。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Career、Candidate Pool、Human Resources Manager、CV及证书资料指向求职人才档案。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB037",
+    "content_and_purpose": "招聘分析工作面板展示候选人总量、面试数、合格人才、AI匹配和招聘渠道表现。",
+    "layout_components": "顶部指标卡；中央按工作日候选管线柱图；右侧招聘渠道条形指标；下方招聘阶段列。",
+    "hierarchy": "候选人/面试/匹配数据先列，招聘管线图占中央，职位阶段卡在下方。",
+    "typography_color_components": "浅灰白底配橙色图标与紫色重点柱；数字深色突出，底部行被模糊遮盖。",
+    "presentation_limits": "面板正面平铺，底部叠加虚化渐层和品牌文字，遮住部分候选人卡片。",
+    "uncertainties": [
+      [
+        "下方候选人阶段卡被模糊遮罩覆盖；右侧边缘部分数据卡出框。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "搜索候选人、日期下拉及侧栏导航图标。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Candidates、Interview Scheduled、Talent Acquisition Channels和Hiring Stages提供招聘线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB038",
+    "content_and_purpose": "Learnify 学员主页含在线课程横幅、课程/课时/证书统计、个人活动、课程清单和待办。",
+    "layout_components": "左侧主导航；中央横幅、摘要指标和课程表；右栏个人资料、活动柱图与任务列表。",
+    "hierarchy": "课程推广横幅居上，学习统计和课程进度位于中部，个人日程列在右侧。",
+    "typography_color_components": "浅紫背景配白卡、紫色导航和多色数据卡；标题及课程名清晰，说明字较小。",
+    "presentation_limits": "完整正面平面应用界面置于浅紫底，主体边缘完整；无设备样机。",
+    "uncertainties": [
+      [
+        "未见明显裁切或遮挡，卡片辅助文字偏细。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "课程搜索、See All、Weekly切换、任务列表与Get Premium。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Online Course、Enrolled Course、Lesson、Certificate、Class等教育词汇明显。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB039",
+    "content_and_purpose": "字体与色彩规范展示板呈现Urbanist字样、大小写字母和数个颜色样块及色值。",
+    "layout_components": "顶部品牌签名；中央绿白渐变大色块与字体样例；下方两行字母表及三条色样。",
+    "hierarchy": "Urbanist字样最大，字母字符和色样/色值分列于其下。",
+    "typography_color_components": "白色字体置于绿到白渐变底，灰底区配白灰黑样色；不是数据组件排版。",
+    "presentation_limits": "设计规范展示板平面居中，完整可见；不构成业务仪表盘或设备画面。",
+    "uncertainties": [
+      [
+        "无裁切或遮挡；未见业务操作界面。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "无可见应用操作控件，仅展示字体样例和色值。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "无可用界面业务线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB040",
+    "content_and_purpose": "Caliber 项目任务管理页面展示项目树、列表视图、任务状态分组、进度及行操作菜单。",
+    "layout_components": "左侧工作区/项目导航；主区顶部项目名称和工具栏；中央按To Do/On Progress/Done分组表格。",
+    "hierarchy": "分组标题与任务名称先读，负责人、日期、进度和优先级列逐行排列。",
+    "typography_color_components": "白底浅蓝、黄、绿状态区，蓝色Create Task按钮；列文字密集而清楚。",
+    "presentation_limits": "平面桌面应用居中显示，底部Done任务区域部分超出画面；无设备框。",
+    "uncertainties": [
+      [
+        "底部任务表被画框截断；行菜单覆盖当前选中任务一部分。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "搜索、Filter、Create Task、任务菜单、指派和归档等操作。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "任务、项目、发票、客户、审批及完成状态提供团队项目管理线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB041",
+    "content_and_purpose": "极简横幅含Save Shot for Inspiration提示、点赞号召及立体爱心图标。",
+    "layout_components": "白色长横幅左侧两行文字，右边悬浮方形爱心按钮图形。",
+    "hierarchy": "点赞号召为主句，粉色保存灵感条为辅助提示，心形置右。",
+    "typography_color_components": "白底黑字，粉色提示条和红心作点缀；文字对比清晰。",
+    "presentation_limits": "细长平面横幅，顶部箭头贴近边缘；内容完整，无设备界面。",
+    "uncertainties": [
+      [
+        "无明显遮挡，箭头从画面上沿延出。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "仅有保存与点赞号召文字，未见可操作产品界面。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "无可用界面业务线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB042",
+    "content_and_purpose": "餐厅后台桌位管理界面弹出通用扫码码管理窗口，含二维码、使用说明和分享/下载操作。",
+    "layout_components": "背景是桌位卡片网格；中央模态窗依次为编码说明、二维码、按钮和使用指引。",
+    "hierarchy": "Universal Code标题和二维码成为焦点，桌位状态卡退为暗化背景。",
+    "typography_color_components": "白色弹窗配橙色再生成按钮和蓝色说明链接；灰遮罩降低背景亮度。",
+    "presentation_limits": "正面平面界面，中央弹窗覆盖大部分桌位卡；外层页面边缘完整。",
+    "uncertainties": [
+      [
+        "弹窗遮挡大部分桌位卡及计数；背景整体灰化。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Download QR Code、Copy Link、Preview Link、Regenerate Universal Code。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Dining table、Orders、Kitchen、Menus和自助扫码说明体现餐饮店桌位管理。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB043",
+    "content_and_purpose": "OrbiX Studio账户管理界面显示余额、收入支出曲线、近期交易、银行卡和联系人。",
+    "layout_components": "左侧导航；主区账户标签及余额和曲线；右侧交易/联系人；底部账户卡片。",
+    "hierarchy": "总余额及收入支出趋势占主要区域，近期交易纵列辅助查看，账户卡片在下方并列。",
+    "typography_color_components": "白色卡片、浅灰分隔线与蓝绿曲线，账户卡使用紫橙渐变。",
+    "presentation_limits": "正面平面桌面管理界面，内容面板完整，边缘无明显裁切。",
+    "uncertainties": [
+      [
+        "无明显透视或遮挡，部分小型交易标签较淡。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Create Account、Link Account、Transfer Funds、View All、Add new。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "账户、余额、Transactions、Payments、Credit Card、Checking/Savings提供金融管理线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB044",
+    "content_and_purpose": "深色流程可视化局部展示Human in the loop步骤和AI Creativity ratio进度卡。",
+    "layout_components": "黑色点阵底上散布倾斜流程节点；右下绿色进度模块最清楚，左侧与顶部节点虚焦。",
+    "hierarchy": "AI Creativity ratio卡及32.4%进度最突出，其他节点仅部分可读。",
+    "typography_color_components": "黑底配荧光绿重点和低亮灰字；焦点区域锐利，周围明显虚化。",
+    "presentation_limits": "暗色界面以倾斜近景构图，前后虚焦明显；多处节点文本无法辨认。",
+    "uncertainties": [
+      [
+        "非仅预览小字：大部分界面区域实际明显失焦，只有局部进度卡清楚。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "步骤2/2、进度比例刻度及箭头节点可见。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "AI、Human in the loop、Posts ready等文字提示自动化内容流程，具体产品未明。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB045",
+    "content_and_purpose": "深绿畜牧经营详情页展示奶牛商品/个体信息、价格库存、视频缩略图及孟加拉语说明。",
+    "layout_components": "顶部深绿导航；上部左侧牛照片、右侧状态/价格/说明；下方视频缩略图与长文本。",
+    "hierarchy": "Cow Details、照片和库存价格为首要信息，视频、说明和编号规则纵向展开。",
+    "typography_color_components": "极深绿背景配亮绿按钮，部分深色标题正文与背景对比很低；多语言正文密集。",
+    "presentation_limits": "正面平面长页截图，页面上下完整延伸；整体低对比导致若干正文难辨。",
+    "uncertainties": [
+      [
+        "大量正文及标题与深绿底对比不足，实际文字辨认受影响；无设备遮挡。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "商品标签页、In Stock、视频播放、预订按钮及信息分页。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Cow、Live stock、价格和农场预订流程文字提供畜牧/活畜交易线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB046",
+    "content_and_purpose": "黑色手机金融界面显示存款/取款、投资组合表现、资产配置和目标进度。",
+    "layout_components": "一部斜置手机居中，顶部操作按钮，中段柱状资产表现和分配图，底部五项导航。",
+    "hierarchy": "Portfolio Performance金额居上，资产配置图和67%目标进度分列下方。",
+    "typography_color_components": "黑底白字与荧光黄绿按钮/图表；关键金额和存款操作高亮。",
+    "presentation_limits": "手机样机嵌在岩壁场景中，明显透视；屏幕和机身完整可见。",
+    "uncertainties": [
+      [
+        "设备完整，侧边岩壁形成背景但未遮住主要屏幕。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Deposit、Withdraw、时间筛选及底部账户导航。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "投资组合、资产配置、股票债券加密货币占比等金融线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB047",
+    "content_and_purpose": "货运车辆卡片展示载重、容积、当日距离、利用率及分托盘装载状态。",
+    "layout_components": "黑色背景中央窄列卡片；上卡为卡车线稿和四项指标，下卡列出托盘装载状态。",
+    "hierarchy": "卡车图与TRK编号在上，Payload/Load Volume等数字随后，Load Planning作为下段。",
+    "typography_color_components": "深灰黑卡片与浅灰文字，蓝绿黄状态标签区分；整体留白很大。",
+    "presentation_limits": "窄幅纵向界面组件置于黑底中，未见设备框；页面并非完整仪表盘。",
+    "uncertainties": [
+      [
+        "卡片右侧卡车线稿似在边界处截断，其他卡片保持完整。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "保险、Permit、Manifest标签及Loaded/Scanning/Assigned状态。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "Payload、Load Planning、Pallet、Truck及运输许可术语指向货运装载管理。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB048",
+    "content_and_purpose": "增长分析仪表盘显示营销收入、访问者、注册数、用户增长、广告支出和渠道表现。",
+    "layout_components": "倾斜网页面板顶部导航，三列指标卡；中央用户增长图，右侧新注册和渠道卡，下方深色区。",
+    "hierarchy": "Marketing Revenue和Total Visitors置于上排；较大的用户增长曲线占中心。",
+    "typography_color_components": "白底黑字，橙蓝图点、绿红变化标签；侧栏图标与卡片分组清楚。",
+    "presentation_limits": "界面近景斜向铺满画面，右侧与底部模块被裁切；无实物设备外框。",
+    "uncertainties": [
+      [
+        "右边注册/渠道卡部分出框，下方分析区只露出开头。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Growth/Insights/Automation导航、时间选择、搜索及图卡箭头。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "营销收入、访问者、注册、广告支出、渠道表现等提供数字营销分析线索。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB049",
+    "content_and_purpose": "HireWise 员工与项目工作台含在办/完成项目、薪资、个人资料、活动图、办公比例和日程。",
+    "layout_components": "左侧窄导航和升级卡；中间个人资料/办公方式及项目柱图；右侧月历和当日事件。",
+    "hierarchy": "在办与完成项目、薪资数据列于顶部；个人卡和活动指标位于中部。",
+    "typography_color_components": "浅绿/蓝大卡搭配紫色图表，文字黑灰；个人姓名与核心数字突出。",
+    "presentation_limits": "正面平面工作台完整置于圆角白框内，未见明显裁切或遮挡。",
+    "uncertainties": [
+      [
+        "边缘完整；个别日程及项目辅助文字较小。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "Vacancies、Employees、Analytics、Offers导航及联系图标。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "职位空缺、员工、薪资、工作形式和招聘日程提示HR/人员管理。"
+      ]
+    ]
+  },
+  {
+    "sample_id": "DB050",
+    "content_and_purpose": "销售运营总览显示销售额、收入/支出月柱图、畅销商品、门店销售分布和采购统计。",
+    "layout_components": "左侧模块导航；主区销售概览与时间切换；中部双柱图；下方商品表和门店环图。",
+    "hierarchy": "Sales Overview数字和月度对比图居中，右侧指标卡及下方商品排行补充详情。",
+    "typography_color_components": "白底配紫橙柱色、青色/粉色图标；主金额和分区标题较醒目。",
+    "presentation_limits": "宽幅平面桌面应用局部，右侧指标卡和下方图表超出画框；无设备框。",
+    "uncertainties": [
+      [
+        "画面右侧及底部均截断部分卡片与门店分析区。"
+      ]
+    ],
+    "function_evidence": [
+      [
+        "时间范围筛选、用户管理、产品、采购、销售及报表导航。"
+      ]
+    ],
+    "domain_evidence": [
+      [
+        "销售额、采购、产品、店铺、退货、入账和门店位置等零售经营词汇。"
+      ]
+    ]
+  }
+]

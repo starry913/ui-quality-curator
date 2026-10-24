@@ -1,0 +1,13 @@
+{
+  "version": "decision-review-v1",
+  "boundary_margin": 1,
+  "structure_accept_probability_band": [
+    0.3,
+    0.7
+  ],
+  "accepted_structures": [
+    "full_page",
+    "main_viewport"
+  ],
+  "notes": "只提示可能影响保留/淘汰的边界样本；行业与功能低置信度保留在详情，不单独提示。完整页面与完整首屏属于同一可接受结构，合并概率。规则未经过人工校准。"
+}

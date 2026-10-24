@@ -1,0 +1,36 @@
+{
+  "version": "page-structure-v5.0",
+  "design_weights": {
+    "layout": 0.25,
+    "hierarchy": 0.2,
+    "readability": 0.15,
+    "consistency": 0.2,
+    "learnability": 0.2
+  },
+  "final_score": "min(design_total, completeness, structure_cap, each design dimension scoring below 50)",
+  "structure_caps": {
+    "component": 25,
+    "promotion": 0,
+    "non_ui": 0,
+    "others": 100
+  },
+  "human_calibrated": false,
+  "purpose": "筛选页面训练数据；孤立组件和作者宣传图排在后面",
+  "preserved_design_results": "jev_results_v4.json",
+  "quality_bands": {
+    "high_quality": "total >= 65",
+    "medium_quality": "50 <= total < 65",
+    "low_quality": "total < 50"
+  },
+  "critical_design_cap": {
+    "dimensions": [
+      "layout",
+      "hierarchy",
+      "readability",
+      "consistency"
+    ],
+    "trigger_below": 50,
+    "cap": "lowest triggered dimension score",
+    "purpose": "严重设计缺陷不能由完整度或可学习性抵消"
+  }
+}

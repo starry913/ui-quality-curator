@@ -1,0 +1,93 @@
+{
+  "round": 5,
+  "count": 50,
+  "quality_counts": {
+    "高质量": 20,
+    "低质量": 17,
+    "中质量": 13
+  },
+  "structure_counts": {
+    "完整主视口/首屏": 18,
+    "页面局部": 18,
+    "孤立组件/区块": 3,
+    "完整页面": 8,
+    "作者宣传/非界面": 3
+  },
+  "mean_total": 54.4,
+  "bottom10": [
+    {
+      "sample_id": "LP030",
+      "total": 0,
+      "structure_kind": "作者宣传/非界面"
+    },
+    {
+      "sample_id": "LP034",
+      "total": 0.0,
+      "structure_kind": "作者宣传/非界面"
+    },
+    {
+      "sample_id": "LP037",
+      "total": 0,
+      "structure_kind": "作者宣传/非界面"
+    },
+    {
+      "sample_id": "LP006",
+      "total": 25.0,
+      "structure_kind": "孤立组件/区块"
+    },
+    {
+      "sample_id": "LP010",
+      "total": 25,
+      "structure_kind": "孤立组件/区块"
+    },
+    {
+      "sample_id": "LP035",
+      "total": 25,
+      "structure_kind": "孤立组件/区块"
+    },
+    {
+      "sample_id": "LP042",
+      "total": 27.0,
+      "structure_kind": "页面局部"
+    },
+    {
+      "sample_id": "LP002",
+      "total": 38.5,
+      "structure_kind": "页面局部"
+    },
+    {
+      "sample_id": "LP023",
+      "total": 38.8,
+      "structure_kind": "页面局部"
+    },
+    {
+      "sample_id": "LP013",
+      "total": 39.8,
+      "structure_kind": "页面局部"
+    }
+  ],
+  "human_calibrated": false,
+  "human_correction_ids": [
+    "LP006",
+    "LP030"
+  ],
+  "rule": "rule_v5.json",
+  "stored_requests": 100,
+  "report_api_calls": 0,
+  "review": {
+    "previous_count": 26,
+    "count": 8,
+    "ratio": 0.16,
+    "sample_ids": [
+      "LP007",
+      "LP014",
+      "LP017",
+      "LP021",
+      "LP029",
+      "LP032",
+      "LP040",
+      "LP047"
+    ],
+    "policy": "review_policy_v5.json"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sample_id": "DB045",
+  "content_and_purpose": "深绿畜牧经营详情页展示奶牛商品/个体信息、价格库存、视频缩略图及孟加拉语说明。",
+  "layout_components": "顶部深绿导航；上部左侧牛照片、右侧状态/价格/说明；下方视频缩略图与长文本。",
+  "hierarchy": "Cow Details、照片和库存价格为首要信息，视频、说明和编号规则纵向展开。",
+  "typography_color_components": "极深绿背景配亮绿按钮，部分深色标题正文与背景对比很低；多语言正文密集。",
+  "presentation_limits": "正面平面长页截图，页面上下完整延伸；整体低对比导致若干正文难辨。",
+  "uncertainties": [
+    [
+      "大量正文及标题与深绿底对比不足，实际文字辨认受影响；无设备遮挡。"
+    ]
+  ],
+  "function_evidence": [
+    [
+      "商品标签页、In Stock、视频播放、预订按钮及信息分页。"
+    ]
+  ],
+  "domain_evidence": [
+    [
+      "Cow、Live stock、价格和农场预订流程文字提供畜牧/活畜交易线索。"
+    ]
+  ]
+}

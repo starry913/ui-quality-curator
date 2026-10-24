@@ -1,0 +1,136 @@
+{
+  "category": "dashboard",
+  "sampling_unit": "image",
+  "candidate_count": 10000,
+  "sample_count": 50,
+  "unique_shot_count": 50,
+  "seed": 20261011,
+  "method": "Python Random(seed).sample of eligible rows sorted by local_path",
+  "images_included": false,
+  "human_calibrated": false,
+  "data_note": "Original images are not redistributed; samples.csv retains public shot URLs and original file hashes.",
+  "release_portability_changes": [
+    "API key from environment or local ignored .env",
+    "Missing preview images use source links",
+    "User-specific paths and unrelated projects excluded"
+  ],
+  "round5": {
+    "round": 5,
+    "count": 50,
+    "quality_counts": {
+      "中质量": 10,
+      "高质量": 27,
+      "低质量": 13
+    },
+    "structure_counts": {
+      "页面局部": 8,
+      "完整主视口/首屏": 30,
+      "完整页面": 3,
+      "孤立组件/区块": 6,
+      "作者宣传/非界面": 3
+    },
+    "mean_total": 56.0,
+    "bottom10": [
+      {
+        "sample_id": "DB023",
+        "total": 0,
+        "structure_kind": "作者宣传/非界面"
+      },
+      {
+        "sample_id": "DB034",
+        "total": 0,
+        "structure_kind": "孤立组件/区块"
+      },
+      {
+        "sample_id": "DB035",
+        "total": 0,
+        "structure_kind": "作者宣传/非界面"
+      },
+      {
+        "sample_id": "DB039",
+        "total": 0,
+        "structure_kind": "作者宣传/非界面"
+      },
+      {
+        "sample_id": "DB041",
+        "total": 0,
+        "structure_kind": "孤立组件/区块"
+      },
+      {
+        "sample_id": "DB020",
+        "total": 25,
+        "structure_kind": "孤立组件/区块"
+      },
+      {
+        "sample_id": "DB025",
+        "total": 25,
+        "structure_kind": "孤立组件/区块"
+      },
+      {
+        "sample_id": "DB044",
+        "total": 25,
+        "structure_kind": "孤立组件/区块"
+      },
+      {
+        "sample_id": "DB047",
+        "total": 25,
+        "structure_kind": "孤立组件/区块"
+      },
+      {
+        "sample_id": "DB045",
+        "total": 36.5,
+        "structure_kind": "完整页面"
+      }
+    ],
+    "human_calibrated": false,
+    "human_correction_ids": [],
+    "rule": "rule_v5.json",
+    "stored_requests": 100,
+    "report_api_calls": 0,
+    "function_counts": {
+      "数据仪表盘": 29,
+      "业务管理页": 11,
+      "账户/设置页": 2,
+      "列表/搜索页": 1,
+      "营销落地页": 1,
+      "非界面": 5,
+      "详情页": 1
+    },
+    "domain_counts": {
+      "无法确定": 7,
+      "教育与学习": 5,
+      "金融与保险": 6,
+      "医疗与健康": 2,
+      "科技与通用工具": 7,
+      "零售与消费品": 3,
+      "房地产与家居": 1,
+      "其他领域": 8,
+      "餐饮与生活服务": 2,
+      "不适用（非界面）": 5,
+      "企业与专业服务": 4
+    },
+    "review": {
+      "previous_count": 31,
+      "count": 10,
+      "ratio": 0.2,
+      "sample_ids": [
+        "DB003",
+        "DB007",
+        "DB008",
+        "DB013",
+        "DB021",
+        "DB030",
+        "DB033",
+        "DB042",
+        "DB048",
+        "DB050"
+      ],
+      "policy": "review_policy_v5.json"
+    },
+    "results": "jev_results_v5.json",
+    "export": "classification_scores_v5.csv",
+    "caption": "captions_structured_v5.json",
+    "original_images_preserved": true,
+    "prior_report": null
+  }
+}

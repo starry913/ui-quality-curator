@@ -1,0 +1,20 @@
+name: Verify saved experiments
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  offline-replay:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.11'
+      - name: Replay saved model outputs without API keys
+        run: python tools/replay.py
+      - name: Verify scoring, labels, reports and source links
+        run: python -m unittest discover -s tests -v
+      - name: Check report JavaScript syntax
+        run: |
+          node --check experiments/landing-page-random-50/review_script_v5.js
+          node --check experiments/dashboard-random-50/review_script_v5.js

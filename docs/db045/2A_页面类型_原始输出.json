@@ -1,0 +1,19 @@
+{
+  "page_function": {
+    "type": "choice",
+    "choice": "detail",
+    "confidence": 1.0,
+    "probabilities": {
+      "landing": 0.0,
+      "dashboard": 0.0,
+      "management": 0.0,
+      "listing": 0.0,
+      "detail": 1.0,
+      "form": 0.0,
+      "content": 0.0,
+      "account": 0.0,
+      "unknown": 0.0,
+      "non_ui": 0.0
+    }
+  }
+}
