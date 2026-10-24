@@ -1,10 +1,10 @@
-# UI Quality Curator
+# LunaJev — Visual UI Curation
 
-**面向前端生成的界面数据质量评估与分类。**
+**基于 Luna + Jev 的前端界面数据质量评估与分类。**
 
-将界面截图转化为结构化视觉证据，通过显式定义的分类问题和评分标准，生成可追溯的页面标签、质量分数与筛选依据。
+由 Luna 将界面截图转化为结构化视觉证据，再由 Jev 根据显式定义的分类问题和评分标准，生成可追溯的页面标签与分项评分，最终通过透明规则形成质量总分与筛选依据。
 
-*Evidence-based screenshot curation for frontend generation: structured visual captions, rubric-based evaluation, and reproducible screening decisions.*
+*Frontend screenshot curation with Luna + Jev: structured visual captions, rubric-based evaluation, and reproducible screening decisions.*
 
 [方法设计](#方法设计) · [实验结果](#实验结果) · [案例分析](#案例分析db045) · [离线复现](#离线复现) · [运行与数据说明](docs/reproducibility.md)
 
